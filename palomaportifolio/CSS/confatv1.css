@@ -1,0 +1,26 @@
+body, html{
+    margin: 0 ;
+    padding: 0;
+
+}
+
+header {
+    min-height: 70px;
+    background-color: #c593ff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+header H1{
+    color:  white;
+}
+
+canvas{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #646464;
+}

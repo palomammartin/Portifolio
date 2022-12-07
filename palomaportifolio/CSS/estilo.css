@@ -1,0 +1,27 @@
+body{
+    background-color : rgb(64, 71, 88);
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+}
+h1{
+    color: white;
+}
+h3{
+    color : #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+h2{
+    color : white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+p{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+li{
+    color: white;
+}

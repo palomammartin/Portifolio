@@ -1,0 +1,152 @@
+header{
+    min-height: 70px;
+    background-color: #9FE2BF;}
+body{
+    background-color : rgb(0, 0, 0);
+    font-family: Verdana, sans-serif;
+    font-style: normal;}
+.container{
+    text-align: center;
+    width: 100%;}
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+.title h1{
+    font-size: 60px;
+}
+
+.home {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+}
+
+div{
+    width: 400px;
+	display: inline-block;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 40px;}
+    
+
+h1{
+    color: white;}
+h2{
+    color : #9FE2BF;
+    border-bottom: #9FE2BF 1px solid;
+    font-size: 25px;
+    text-transform: uppercase;}
+h3{
+        color : #9FE2BF;
+        font-size: 20px;}
+
+h4{
+        color: white;
+        font-size: 18px;
+        padding-left: 30px;
+        }
+p{
+    font-size: 15px;
+    color:whitesmoke;}
+footer {
+    background-color: #9FE2BF
+    ;
+    color:black;
+    text-align: center;
+    font-size: .8e;}
+footer p{
+    color:black;
+    text-align: center;
+    line-height: 35px;}
+footer.container{
+    display:flex;}
+footer menu a {
+    color:black;}
+        
+#foto img {
+
+        width: 400px;
+        height: 400px; 
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        bottom: 0;
+        
+        }
+        
+#foto img:hover {
+        
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        
+        }
+
+
+#foto:hover #comentario{
+        opacity:1;
+        }
+
+
+ #comentario{
+            position: relative;
+            top: -180px;
+            text-align: center;
+            bottom: 0px;
+            padding:0px;
+            line-height:50px;
+            color:#9FE2BF;
+            display: block;
+            width:400px;
+            opacity:0;
+            transition: opacity .2s linear;
+            background-color: rgba(0,0,0,.2);
+            font-weight: 700;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+            line-height:50px;
+            overflow: hidden;
+            }
+ #fotounica  {
+
+                max-width: 400px;
+                max-height: 400px;
+                 float: left;
+                
+                }
+.menu ul {
+    display: flex; 
+    justify-content: flex-end;
+    list-style: none;}
+.menu li {
+    padding: 20px;
+    min-width: 20px;}
+.menu a:link {
+    color: black;
+
+    text-decoration: none;}
+.menu a:visited {
+    color: black;
+    text-decoration: none;}
+.menu a:active {
+    color: black; 
+    text-decoration: none;}
+.texto{
+    text-align: justify;
+}
+.foto img {
+    
+        width: 250px;
+        height: 250px; }
+#minhafoto img{
+transition: all 0.5s;
+cursor: pointer;
+}
+
+#minhafoto img:hover{
+-webkit-transform: scale(1.5);
+transform: scale(1.25);
+}
